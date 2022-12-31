@@ -1,0 +1,12 @@
+body{
+    background-color: red;
+}
+#input{
+    border: 1px solid black;
+}
+button{
+    padding: 36px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}

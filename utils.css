@@ -1,0 +1,18 @@
+.text-center{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
+#input{
+    padding:10px 80px;
+}
+.row{
+    margin: 5px;
+}

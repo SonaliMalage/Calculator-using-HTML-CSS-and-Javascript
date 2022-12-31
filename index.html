@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="utils.css">
+    </head>
+    <body>
+        <!-- <h1 class="text-center">Calculator</h1> -->
+        <div class="container flex flex-col items-center">
+            <div class="row">
+                <input type="text" id="input">
+            </div>
+            <div class="row">
+                <button id="ans" onclick="equal();">Answer</button>
+                <button id="clr" onclick="reset();">Reset</button>
+            </div>
+            <div class="row">
+                <button id="block7" onclick = "insert(7)">7</button>
+                <button id="block8" onclick = "insert(8)">8</button>
+                <button id="block9" onclick = "insert(9)">9</button>
+                <button id="divide"  onclick = "insert('/')">/</button>
+            </div>
+            <div class="row">
+                <button id="block4"  onclick = "insert(4)">4</button>
+                <button id="block5"  onclick = "insert(5)">5</button>
+                <button id="block6"  onclick = "insert(6)">6</button>
+                <button id="multiply"  onclick = "insert('*')">*</button>
+            </div>
+            <div class="row">
+                <button id="block1"  onclick = "insert(1)">1</button>
+                <button id="block2"  onclick = "insert(2)">2</button>
+                <button id="block3"  onclick = "insert(3)">3</button>
+                <button id="minus"  onclick = "insert('-')">-</button>
+            </div>
+            <div class="row">
+                <button id="block0"  onclick = "insert(0)">0</button>
+                <button id="dot" onclick = "insert('.')">.</button>
+                <button id="plus"  onclick = "insert('+')">+</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
